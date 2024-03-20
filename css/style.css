@@ -94,3 +94,29 @@
     }
 }
 
+.arrow-2 {
+    height: 50px;
+    width: 3px;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    background-color: green;
+    transform-origin: center 100%;
+    animation-name: timer;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.arrow-3 {
+    height: 50px;
+    width: 3px;
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    background-color: green;
+    transform-origin: center 100%;
+    animation-name: timer;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
