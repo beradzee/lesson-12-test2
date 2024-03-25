@@ -79,10 +79,12 @@
     top: 7px;
     background-color: red;
     transform-origin: center 100%;
+    rotate: 90deg;
     animation-name: timer;
     animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+
 }
 
 @keyframes timer {
@@ -105,7 +107,7 @@
     animation-name: timer;
     animation-duration: 10s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
 }
 .arrow-3 {
     height: 50px;
@@ -119,4 +121,14 @@
     animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+}
+
+.btn {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+
+}
+.btn:hover + .clock .main-arrow{
+    animation-direction: reverse;
 }
